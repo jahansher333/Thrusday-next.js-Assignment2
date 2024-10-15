@@ -1,5 +1,6 @@
 import Link from "next/link";
 import style from "./header.module.css"
+import Image from "next/image";
 const Header = () => {
     return(
         <div>
@@ -7,7 +8,7 @@ const Header = () => {
             <header className={style.header}>
                 <div className={style.logo}>
                     
-                <a href="/"><img src="https://www.swiftsales.io/assets/svg/header-logo.svg" alt="" width="100" height="35" decoding="async" data-nimg="1" loading="lazy"/></a>
+                <a href="/"><Image src="https://www.swiftsales.io/assets/svg/header-logo.svg" alt="" width="100" height="35" decoding="async" data-nimg="1" loading="lazy"/></a>
                     
                 </div>
                 <div>

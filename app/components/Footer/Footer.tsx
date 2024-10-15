@@ -1,4 +1,5 @@
  import footer from "./footer.module.css";
+ import Image from "next/image";
 const Footer = () => {
   return (
     <div >
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className={footer.footer}>
         <div>
           <a href="/">
-            <img
+            <Image
               src="https://www.swiftsales.io/assets/svg/header-logo.svg"
               alt=""
               width="100"
@@ -104,18 +105,18 @@ const Footer = () => {
         </div>
         </div>
         <div className={footer.contact}>
-        <img src="https://www.swiftsales.io/assets/svg/loc.svg" width="12" height="12" alt="loc" 
+        <Image src="https://www.swiftsales.io/assets/svg/loc.svg" width="12" height="12" alt="loc" 
         
         />
         <span>Southlake, TX, United States, Texas</span>
         
          
 
-          <img src="https://www.swiftsales.io/assets/svg/mail.svg" width="12" height="12" alt="mail" />
+          <Image src="https://www.swiftsales.io/assets/svg/mail.svg" width="12" height="12" alt="mail" />
           
           <span>9sNcJ@example.com</span>
           
-          <img src="https://www.swiftsales.io/assets/svg/pho.svg" width="12" height="12" alt="" />
+          <Image src="https://www.swiftsales.io/assets/svg/pho.svg" width="12" height="12" alt="" />
           
           
           <span>+1 800 123 1234</span>
